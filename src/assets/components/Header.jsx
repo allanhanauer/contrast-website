@@ -6,7 +6,7 @@ const Header = () => {
     <header className="flex">
       <section id="logo-header" className="flex">
           <img src={logo} id="logo-contrast-header" />
-        <Link className="header-link" to="/">
+        <Link className="header-link" to="contrast-website/">
           <h3 className="bold">CONTRAST</h3>
         </Link>
       </section>
