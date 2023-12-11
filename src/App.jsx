@@ -13,13 +13,19 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="contrast-website/" element={<Home />} />
           <Route path="/produtos" element={<Produtos />} />
           <Route path="/contatos" element={<Contatos />} />
           <Route path="/sobre" element={<Sobre />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/cadastro-persona" element={<CadastroPersona />} />
-          <Route path="/cadastro-corp" element={<CadastroCorp />} />
+          <Route
+            path="/cadastro-persona"
+            element={<CadastroPersona />}
+          />
+          <Route
+            path="/cadastro-corp"
+            element={<CadastroCorp />}
+          />
           <Route path="/dashboard" element={<DashBoard />} />
         </Routes>
       </BrowserRouter>
