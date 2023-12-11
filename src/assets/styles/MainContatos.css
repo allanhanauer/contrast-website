@@ -1,0 +1,49 @@
+#main-contatos {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0;
+  height: 1200px;
+  justify-content: space-between;
+}
+
+#main-contatos h1 {
+  color: #370075;
+  padding: 0 30px;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#main-contatos p {
+  color: #620097;
+  padding: 0 80px;
+  width: 56.9375rem;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#main-contatos-one>section h3 {
+  color: #370075;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#main-contatos-one>section {
+  width: 100%;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+#main-contatos-one>section ul li {
+  color: #620097;
+  list-style: none;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

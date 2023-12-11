@@ -1,0 +1,152 @@
+#login-main {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+#container-img-login {
+  padding-left: 70px;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding-top: 180px;
+  border-radius: 0 250px 0 0;
+  background-size: cover;
+  background-image: url('../img/contrast_BG.jpg');
+  width: 50%;
+  height: 100vh;
+  gap: 20px;
+}
+
+#container-img-login>#contrast-logo-login {
+  width: 100px;
+  height: 100px;
+}
+
+#container-img-login h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#container-img-login p {
+  width: 30rem;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#form-login-main h3 {
+  color: #370075;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#form-login-main {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#layout-form-main {
+  width: 527px;
+  height: 432px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#square-login {
+  width: 25%;
+  background: #E2DADA;
+  height: 3px;
+}
+
+#cad-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+#cad-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+#personal-link {
+  background-color: #620097;
+}
+
+#personal-link:hover {
+  background-color: #FDBA31;
+  color: #370075;
+}
+
+.link-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #370075;
+  color: white;
+  border: 1px solid #000;
+  text-decoration: none;
+  width: 250px;
+  height: 55px;
+  transition: 0.5s;
+}
+
+.link-login:hover {
+  background-color: #FDBA31;
+  color: #370075;
+}
+
+.inp {
+  height: 50px;
+  border: 1px solid #620097;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#lembre-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+#lembre-box #lembre {
+  transform: scale(1.5);
+  margin-right: 10px;
+}
+
+.label-text {
+  color: #620097;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  border-radius: 8px;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+  border: none;
+  background-color: #FDBA31;
+  height: 53px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background-color: #520097;
+  color: #fff;
+}

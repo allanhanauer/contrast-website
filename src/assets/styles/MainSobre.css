@@ -1,0 +1,22 @@
+#main-sobre {
+  flex-direction: column;
+  padding: 20px;
+
+}
+
+#main-sobre h1 {
+  color: #370075;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#main-sobre p {
+  color: #370075;
+  margin: 40px;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-indent: 50px;
+}
